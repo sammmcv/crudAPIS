@@ -1,4 +1,4 @@
-Sistema para el consumo de APIs externas como TVMaze, Open Library y Google API. Además cuanta con funcionalidades CRUD de usuarios por roles. Este proyecto es elaborado con Spring Boot y la base de datos MySQL.
+Sistema para el consumo de APIs externas como TVMaze, Open Library y Google API. Además cuenta con funcionalidades CRUD de usuarios por roles. Este proyecto es elaborado con Spring Boot y la base de datos MySQL.
 
 INSTRUCCIONES PARA EJECUTAR EL PROYECTO:
 
