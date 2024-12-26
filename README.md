@@ -1,6 +1,7 @@
 Sistema para el consumo de APIs externas como TVMaze, Open Library y Google API. Además cuanta con funcionalidades CRUD de usuarios por roles. Este proyecto es elaborado con Spring Boot y la base de datos MySQL.
 
 INSTRUCCIONES PARA EJECUTAR EL PROYECTO:
+
 o Tener instalado Docker (desktop preferentemente)
 
 o Ejecutar o importar en nuestro gestor de base de datos el archivo "crud.sql" con la base de datos que utilizaremos.
@@ -17,10 +18,10 @@ INTERACCION CON LOS ENDPOINTS DE NUESTRA API:
 
 Ejemplos:
 
-Registro de Usuario Endpoint: POST /api/auth/register
-Inicio de Sesión: Endpoint: POST /api/auth/login
-Obtener Lista de Usuarios (Administrador) Endpoint: GET /api/users
-Actualizar Información del Usuario Endpoint: PUT /api/users/{id}
-Eliminar Usuario Endpoint: DELETE /api/users/{id}
-Buscar Películas por Nombre Endpoint: GET /api/movies?name={movieName}
-Buscar Libros por Nombre Endpoint: GET /api/books?name={bookName}
+-Registro de Usuario Endpoint: POST /api/auth/register
+-Inicio de Sesión: Endpoint: POST /api/auth/login
+-Obtener Lista de Usuarios (Administrador) Endpoint: GET /api/users
+-Actualizar Información del Usuario Endpoint: PUT /api/users/{id}
+-Eliminar Usuario Endpoint: DELETE /api/users/{id}
+-Buscar Películas por Nombre Endpoint: GET /api/movies?name={movieName}
+-Buscar Libros por Nombre Endpoint: GET /api/books?name={bookName}
