@@ -19,9 +19,16 @@ INTERACCION CON LOS ENDPOINTS DE NUESTRA API:
 Ejemplos:
 
 -Registro de Usuario Endpoint: POST /api/auth/register
+
 -Inicio de Sesión: Endpoint: POST /api/auth/login
+
 -Obtener Lista de Usuarios (Administrador) Endpoint: GET /api/users
+
 -Actualizar Información del Usuario Endpoint: PUT /api/users/{id}
+
 -Eliminar Usuario Endpoint: DELETE /api/users/{id}
+
 -Buscar Películas por Nombre Endpoint: GET /api/movies?name={movieName}
+
 -Buscar Libros por Nombre Endpoint: GET /api/books?name={bookName}
+
